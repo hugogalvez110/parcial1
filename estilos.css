@@ -1,0 +1,32 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   
+   }
+   body {
+       background-image: url('00.jpg');
+   }
+   h1{
+       color: rgba(185, 13, 185, 0.986);
+
+   }
+   .form-ins{
+       width: 400px;
+       background: rgb(15, 36, 82);
+       padding: 30px;
+       margin: auto;
+       margin-top: 10px;
+       border-radius: 4px;
+       font-family: algerian;
+       color: rgb(10, 192, 183);
+       border-color: rgb(131, 11, 115);
+       
+   }
+   .form-ins h1 {
+       font-size: 22px;
+       margin-bottom: 20px;
+       border-width: 5px;
+       
+
+   }

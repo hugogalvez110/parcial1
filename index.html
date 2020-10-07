@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario inscripcion</title>
+</head>
+<body>
+    <section class= " form-ins">
+    <h1>Formulario para inscripciones</h1>
+
+    <hr>
+    <form action="#">
+        <fieldset>
+           <h2> <legend>Entradas de usuario</legend> </h2>
+            <div>
+                <label class="controls" for="usuario">Nombre:</label>
+                <input class="controls" id="usuario" type="text" name="usuario">
+            </div><br>
+            <div>
+                <label for="email">Direccion email:</label>
+                <input id="email" type="text" name="email">
+                
+            </div><br> 
+            
+            <div>
+                <label for="Especialidad">Especialidad:</label>
+                <select name="Especialidad">
+                    <option value="PRO">Programacion</option>
+                    <option value="ALI">Alimentos</option>
+                    <option value="CO">Construccion</option>
+                    <option value="ELE">Electronica</option>
+                    <option value="CON">Contabilidad</option>
+                    <option value="LO">Logistica</option>
+                    <option value="" selected="selected">Elige tu Especialidad...</option>
+                </select>
+            </div><br>
+            <div>Actividades extraescolares: <br>
+                <input type="checkbox" id="futbol" name="aficiones" value="futbol">
+                <label for="deportes">Teatro</label><br>
+                <input type="checkbox" id="basquetbol" name="aficiones" value="basquetbol">
+                <label for="coches">Voleibol</label><br>
+                <input type="checkbox" id="voleibol" name="aficiones" value="voleibol">
+                <label for="musica">Basquetbol</label><br>
+                <input type="checkbox" id="teatro" name="aficiones" value="teatro">
+                <label for="deportes">Ajedrez</label><br>
+                <input type="checkbox" id="rondalla" name="aficiones" value="rondalla">
+                <label for="coches">Rondalla</label><br>
+                <input type="checkbox" id="danza" name="aficiones" value="danza">
+                <label for="musica">Danza</label><br>
+                <input type="checkbox" id="ajedrez" name="aficiones" value="ajedrez">
+                <label for="deportes">Ajedrez</label><br>
+                <input type="checkbox" id="dibujo" name="aficiones" value="dibujo">
+                <label for="coches">Futbol</label><br>
+                <input type="checkbox" id="proteccioncivil" name="aficiones" value="proteccioncivil">
+                <label for="musica">Proteccion civil</label><br>
+            </div><br>
+            <div>Turno: <br>
+                <input type="radio" id="turno matutino" name="turno" value="turno matutino">
+                <label for="turno matutino">Turno matutino</label><br>
+                <input type="radio" id="turno vespertino" name="turno" value="turno vespertino">
+                <label for="turno vespertino">Turno vespertino</label><br>
+            </div><br>
+            <div>Semestre: <br>
+                <input type="radio" id="semestre" name="semestre" value="semestre">
+                <label for="semestre">Primero</label><br>
+                <input type="radio" id="semestre" name="semestre" value="semestre">
+                <label for="semestre">Tercero</label><br>
+                <input type="radio" id="semestre" name="semestre" value="semestre">
+                <label for="semestre">Quinto</label><br>
+            </div><br>
+                <div>Sexo: <br>
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="femenino" name="sexo" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                </div><br>
+                    <input type="submit" name="submit" value="Enviar informacion">
+                    <input type="reset" name="reset" value="Limpiar formulario">
+                </div><br>
+            </div><br>
+        </fieldset>
+        By: Hugo Galvez Muñoz
+    </section >
+    
+</body>
+</html>
